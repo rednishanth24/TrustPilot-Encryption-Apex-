@@ -5,8 +5,8 @@ global class TrustPilotBatch implements Database.Batchable<sObject> {
     }
    
     global void execute(Database.BatchableContext BC, List<TrustPilot_Links__c> scope) {
-      string encryptkeyy = '3kXLV1rnimLR4324TPGz7iu2Wdd+/hYVTB/Dt6nnIk=';  // this key can be called from custom settings record for security reasons
-      string authkeyy =    '2BKulGe3CTWOdfsdskM62dNpFAeuuWhfevc4A='; // this key can be called from custom settings record for security reasons
+      string encryptkeyy = '3kXLV1rnimLsf444345z7iu2Wdd+/hYVTB/Dt6nnIk=';  // this key can be called from custom settings record for security reasons
+      string authkeyy =    '2BKulGe3CTWOdfsdskM62dNpFAdfsdfevc4A='; // this key can be called from custom settings record for security reasons
    
          for(TrustPilot_Links__c tr : scope)
          {
